@@ -1,0 +1,24 @@
+[32m     ✓ comment creation status is 201 or 200[0m
+[32m     ✓ reply creation status is 201 or 200[0m
+
+     █ setup
+
+[32m       ✓ post creation status is 201 or 200[0m
+
+     checks[2m.........................:[0m [36m100.00%[0m [36;2m✓ 2399[0m      [36;2m✗ 0[0m   
+     data_received[2m..................:[0m [36m4.0 MB[0m  [36;2m40 kB/s[0m
+     data_sent[2m......................:[0m [36m515 kB[0m  [36;2m5.1 kB/s[0m
+     http_req_blocked[2m...............:[0m avg=[36m2.47ms[0m   min=[36m0s[0m       med=[36m1µs[0m      max=[36m573.58ms[0m p(90)=[36m1µs[0m      p(95)=[36m2µs[0m     
+     http_req_connecting[2m............:[0m avg=[36m796.78µs[0m min=[36m0s[0m       med=[36m0s[0m       max=[36m186.08ms[0m p(90)=[36m0s[0m       p(95)=[36m0s[0m      
+   [31m✗[0m http_req_duration[2m..............:[0m avg=[36m333.63ms[0m min=[36m179.69ms[0m med=[36m286.55ms[0m max=[36m2.2s[0m     p(90)=[36m468.61ms[0m p(95)=[36m581.53ms[0m
+       { expected_response:true }[2m...:[0m avg=[36m333.63ms[0m min=[36m179.69ms[0m med=[36m286.55ms[0m max=[36m2.2s[0m     p(90)=[36m468.61ms[0m p(95)=[36m581.53ms[0m
+     http_req_failed[2m................:[0m [36m0.00%[0m   [36;2m✓ 0[0m         [36;2m✗ 2399[0m
+     http_req_receiving[2m.............:[0m avg=[36m192.59µs[0m min=[36m24µs[0m     med=[36m91µs[0m     max=[36m45.94ms[0m  p(90)=[36m203µs[0m    p(95)=[36m333.09µs[0m
+     http_req_sending[2m...............:[0m avg=[36m202.91µs[0m min=[36m22µs[0m     med=[36m120µs[0m    max=[36m38.24ms[0m  p(90)=[36m247µs[0m    p(95)=[36m366µs[0m   
+     http_req_tls_handshaking[2m.......:[0m avg=[36m1.66ms[0m   min=[36m0s[0m       med=[36m0s[0m       max=[36m387.94ms[0m p(90)=[36m0s[0m       p(95)=[36m0s[0m      
+     http_req_waiting[2m...............:[0m avg=[36m333.23ms[0m min=[36m179.52ms[0m med=[36m285.89ms[0m max=[36m2.2s[0m     p(90)=[36m467.01ms[0m p(95)=[36m581.34ms[0m
+     http_reqs[2m......................:[0m [36m2399[0m    [36;2m23.712541/s[0m
+     iteration_duration[2m.............:[0m avg=[36m673.17ms[0m min=[36m373.28ms[0m med=[36m603.3ms[0m  max=[36m3.08s[0m    p(90)=[36m923.75ms[0m p(95)=[36m1.12s[0m   
+     iterations[2m.....................:[0m [36m1199[0m    [36;2m11.851328/s[0m
+     vus[2m............................:[0m [36m1[0m       [36;2mmin=0[0m       [36;2mmax=10[0m
+     vus_max[2m........................:[0m [36m10[0m      [36;2mmin=10[0m      [36;2mmax=10[0m
